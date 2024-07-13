@@ -1,15 +1,11 @@
 import type { FastifyInstance } from "fastify"
 import { ZodTypeProvider } from "fastify-type-provider-zod"
-import dayjs from "dayjs"
-import localizedFormat from 'dayjs/plugin/localizedFormat'
-import 'dayjs/locale/pt-br'
 import nodemailer from 'nodemailer'
 import { z } from "zod"
 import { prisma } from "../lib/prisma"
 import { getMailClient } from "../lib/mail"
+import { dayjs } from "../lib/dayjs"
 
-dayjs.locale('pt-br')
-dayjs.extend(localizedFormat);
 
 export async function createTrip(app: FastifyInstance) {
     app.withTypeProvider<ZodTypeProvider>().post('/trips', {
@@ -49,7 +45,7 @@ export async function createTrip(app: FastifyInstance) {
                                 is_owner: true,
                                 is_confirmed: true,
                             },
-                            ...emails_to_invite.map(email => {
+                            ...emails_to_invite.map((email) => {
                                 return { email }
                             })
                         ]
