@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// colocar em todos os elementos do HTML uma largura de 0
+* {
+    min-width: 0;
+}
