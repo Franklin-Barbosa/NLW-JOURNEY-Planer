@@ -2,6 +2,12 @@
     "[prisma]": {
         "editor.formatOnSave": true
       },
+      "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+      },
+      "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+      },
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
       },
