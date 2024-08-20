@@ -6,3 +6,8 @@
 * {
     min-width: 0;
 }
+
+// alterar a cor dos imputs para branco já que o tema todo é dark
+input {
+    color-scheme: dark;
+}
