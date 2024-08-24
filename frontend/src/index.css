@@ -2,17 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-// colocar em todos os elementos do HTML uma largura de 0
 * {
-    min-width: 0;
+  min-width: 0;
 }
 
-// alterar a cor dos imputs para branco já que o tema todo é dark
 input {
-    color-scheme: dark;
-}
-
-.rdp-root {
-    --rdp-accent-color: #BEF264; 
-    --rdp-accent-background-color: #9FB17B; 
+  color-scheme: dark;
 }
