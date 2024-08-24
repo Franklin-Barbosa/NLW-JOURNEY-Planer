@@ -80,5 +80,5 @@ Após o servidor backend estar rodando, é possível acessar ele através da rot
 > Para mais detalhes das dependências gerais da aplicação veja os arquivos de cada componente [package.json](./backend/package.json) e [package.json](./frontend/package.json)
 
 
-## Layout do projeto
+## ✏️ Layout do projeto
 Você pode visualizar o layout do projeto através [desse link](<https://www.figma.com/design/602kvOvQrxN5PxvTiSE68s/NLW-Journey-%E2%80%A2-Planejador-de-viagem-(Community)?node-id=0-1&t=2WxJfE8luYZ9oTJV-0>). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
